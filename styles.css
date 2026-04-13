@@ -4,17 +4,24 @@
     box-sizing: border-box;
 }
 .box{
-    background-color: rgb(0, 17, 255);
+    background-color: rgb(199, 203, 254);
     width:200px;
     height: 200px;
     margin: 20px;
+    border: solid blue;
+    text-align: center;
 }
 .container{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     outline: 1px dashed black;
     width: 900px;
     height: 900px;
+}
+h3{
+    color: rgba(255, 106, 57, 0.767);
+}
+h4{
+    color: rgba(255, 106, 57, 0.767);
 }
