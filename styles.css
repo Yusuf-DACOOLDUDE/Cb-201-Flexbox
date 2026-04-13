@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+.box{
+    background-color: rgb(0, 17, 255);
+    width:200px;
+    height: 200px;
+    margin: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 1px dashed black;
+    width: 900px;
+    height: 900px;
+}
